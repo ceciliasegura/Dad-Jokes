@@ -1,0 +1,14 @@
+
+.app{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+.card-jokes{
+    width: 700px;
+    height: 300px;
+    background-color: rgb(159, 178, 234);
+    text-align: center;
+    padding: 50px;
+    font-size:xx-large;
+}
