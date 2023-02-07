@@ -1,14 +1,28 @@
+body {
+    background-color: rgb(220, 226, 245);
+}
 
-.app{
+.App {
     display: flex;
     align-items: center;
-    justify-content: center;  
+    justify-content: center;
+    padding: 10%;
+
 }
-.card-jokes{
+
+.card-jokes {
     width: 700px;
     height: 300px;
     background-color: rgb(159, 178, 234);
     text-align: center;
     padding: 50px;
-    font-size:xx-large;
+    font-size: xx-large;
+}
+
+.card-jokes button {
+    
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+
 }

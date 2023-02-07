@@ -28,7 +28,7 @@ export default function CardJokes(){
     }  
 
         return ( 
-            
+
             <div className="card-jokes"> 
                 <p>{jokes? jokes.joke : "."}</p> 
                 <button onClick={test}>Next</button> 
@@ -36,3 +36,4 @@ export default function CardJokes(){
             
         )
 }
+
